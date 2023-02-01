@@ -1,0 +1,391 @@
+[
+	{
+		"projectName": "Dental Este",
+		"url": "https://github.com/jaamdev",
+		"urlImg": "./img/dental-project.jpg",
+		"projectDescription": "Esto es sólo una descripción del proyecto."
+	},
+	{
+		"projectName": "Wiggle",
+		"url": "https://github.com/jaamdev",
+		"urlImg": "./img/bicis-project.jpg",
+		"projectDescription": "Esto es sólo una descripción del proyecto."
+	},
+	{
+		"projectName": "PcComponentes",
+		"url": "https://github.com/jaamdev",
+		"urlImg": "./img/pccomponentes-project.jpg",
+		"projectDescription": "Esto es sólo una descripción del proyecto."
+	},
+	{
+		"urlMain": "https://github.com/mouredev/Weekly-Challenge-2022-Kotlin"
+	},
+	{
+		"name": "5 Proyectos de React Avanzados",
+		"url": "https://github.com/jaamdev"
+	},
+	{
+		"name": "5 Proyectos de React",
+		"url": "https://github.com/jaamdev"
+	},
+	{
+		"name": "10 Proyectos de JS",
+		"url": "https://github.com/jaamdev"
+	},
+	{
+		"name": "20 Proyectos de CSS",
+		"url": "https://github.com/jaamdev"
+	},
+	{
+		"name": "Acordeon JS",
+		"url": "https://github.com/jaamdev"
+	},
+	{
+		"name": "Acordeon sin JS",
+		"url": "https://github.com/jaamdev"
+	},
+	{
+		"name": "Agenda",
+		"url": "https://github.com/jaamdev"
+	},
+	{
+		"name": "Aviso Cookies",
+		"url": "https://github.com/jaamdev"
+	},
+	{
+		"name": "Blog",
+		"url": "https://github.com/jaamdev"
+	},
+	{
+		"name": "Calculadora 1",
+		"url": "https://github.com/jaamdev"
+	},
+	{
+		"name": "Calculadora 2",
+		"url": "https://github.com/jaamdev"
+	},
+	{
+		"name": "Calculadora",
+		"url": "https://github.com/jaamdev"
+	},
+	{
+		"name": "Calendario",
+		"url": "https://github.com/jaamdev"
+	},
+	{
+		"name": "Cifrado César",
+		"url": "https://github.com/jaamdev"
+	},
+	{
+		"name": "Clima",
+		"url": "https://github.com/jaamdev"
+	},
+	{
+		"name": "Cronómetro",
+		"url": "https://github.com/jaamdev"
+	},
+	{
+		"name": "Cuenta Regresiva",
+		"url": "https://github.com/jaamdev"
+	},
+	{
+		"name": "Cuenta Regresiva",
+		"url": "https://github.com/jaamdev"
+	},
+	{
+		"name": "Cup Tea",
+		"url": "https://github.com/jaamdev"
+	},
+	{
+		"name": "Dark Mode",
+		"url": "https://github.com/jaamdev"
+	},
+	{
+		"name": "Efecto Escritura",
+		"url": "https://github.com/jaamdev"
+	},
+	{
+		"name": "Efecto Hover 1",
+		"url": "https://github.com/jaamdev"
+	},
+	{
+		"name": "Efecto Hover 2",
+		"url": "https://github.com/jaamdev"
+	},
+	{
+		"name": "Efecto Hover 1",
+		"url": "https://github.com/jaamdev"
+	},
+	{
+		"name": "Efecto Hover Botón",
+		"url": "https://github.com/jaamdev"
+	},
+	{
+		"name": "Efecto Hover List 1",
+		"url": "https://github.com/jaamdev"
+	},
+	{
+		"name": "Efecto Hover List 2",
+		"url": "https://github.com/jaamdev"
+	},
+	{
+		"name": "Efecto Hover List 3",
+		"url": "https://github.com/jaamdev"
+	},
+	{
+		"name": "Efecto Hover Menu 1",
+		"url": "https://github.com/jaamdev"
+	},
+	{
+		"name": "Efecto Reflejo",
+		"url": "https://github.com/jaamdev"
+	},
+	{
+		"name": "FAQ",
+		"url": "https://github.com/jaamdev"
+	},
+	{
+		"name": "Fetch 1",
+		"url": "https://github.com/jaamdev"
+	},
+	{
+		"name": "Fetch 2",
+		"url": "https://github.com/jaamdev"
+	},
+	{
+		"name": "Fetch",
+		"url": "https://github.com/jaamdev"
+	},
+	{
+		"name": "Fondo Abstracto",
+		"url": "https://github.com/jaamdev"
+	},
+	{
+		"name": "Formulario Pro",
+		"url": "https://github.com/jaamdev"
+	},
+	{
+		"name": "Keyboard UI",
+		"url": "https://github.com/jaamdev"
+	},
+	{
+		"name": "Landing Page",
+		"url": "https://github.com/jaamdev"
+	},
+	{
+		"name": "Loader",
+		"url": "https://github.com/jaamdev"
+	},
+	{
+		"name": "Login",
+		"url": "https://github.com/jaamdev"
+	},
+	{
+		"name": "Login Panel 1",
+		"url": "https://github.com/jaamdev"
+	},
+	{
+		"name": "Login Panel 2",
+		"url": "https://github.com/jaamdev"
+	},
+	{
+		"name": "Login Panel 3",
+		"url": "https://github.com/jaamdev"
+	},
+	{
+		"name": "Login Panel 4",
+		"url": "https://github.com/jaamdev"
+	},
+	{
+		"name": "Login Panel 5",
+		"url": "https://github.com/jaamdev"
+	},
+	{
+		"name": "Login Panel 6",
+		"url": "https://github.com/jaamdev"
+	},
+	{
+		"name": "Login Panel",
+		"url": "https://github.com/jaamdev"
+	},
+	{
+		"name": "Login Panel Jaamdev",
+		"url": "https://github.com/jaamdev"
+	},
+	{
+		"name": "Login Panel",
+		"url": "https://github.com/jaamdev"
+	},
+	{
+		"name": "Login Panel",
+		"url": "https://github.com/jaamdev"
+	},
+	{
+		"name": "Login Panel",
+		"url": "https://github.com/jaamdev"
+	},
+	{
+		"name": "Menú Desplegable",
+		"url": "https://github.com/jaamdev"
+	},
+	{
+		"name": "Menú Desplegable",
+		"url": "https://github.com/jaamdev"
+	},
+	{
+		"name": "Menu Horizontal",
+		"url": "https://github.com/jaamdev"
+	},
+	{
+		"name": "Menu de Puntos",
+		"url": "https://github.com/jaamdev"
+	},
+	{
+		"name": "Menu Responsive",
+		"url": "https://github.com/jaamdev"
+	},
+	{
+		"name": "Menu Team",
+		"url": "https://github.com/jaamdev"
+	},
+	{
+		"name": "Menu Vertical",
+		"url": "https://github.com/jaamdev"
+	},
+	{
+		"name": "Menu Vertical Puntos",
+		"url": "https://github.com/jaamdev"
+	},
+	{
+		"name": "Nav 3D",
+		"url": "https://github.com/jaamdev"
+	},
+	{
+		"name": "Nav Glow",
+		"url": "https://github.com/jaamdev"
+	},
+	{
+		"name": "Nav Magic 1",
+		"url": "https://github.com/jaamdev"
+	},
+	{
+		"name": "Nav Magic 2",
+		"url": "https://github.com/jaamdev"
+	},
+	{
+		"name": "Entero a Romano",
+		"url": "https://github.com/jaamdev"
+	},
+	{
+		"name": "Palíndromo",
+		"url": "https://github.com/jaamdev"
+	},
+	{
+		"name": "Progreso Circular",
+		"url": "https://github.com/jaamdev"
+	},
+	{
+		"name": "Reloj 1",
+		"url": "https://github.com/jaamdev"
+	},
+	{
+		"name": "Reloj 2",
+		"url": "https://github.com/jaamdev"
+	},
+	{
+		"name": "Reloj 3",
+		"url": "https://github.com/jaamdev"
+	},
+	{
+		"name": "Reloj 4",
+		"url": "https://github.com/jaamdev"
+	},
+	{
+		"name": "Reloj 5",
+		"url": "https://github.com/jaamdev"
+	},
+	{
+		"name": "Reloj 6",
+		"url": "https://github.com/jaamdev"
+	},
+	{
+		"name": "Reloj",
+		"url": "https://github.com/jaamdev"
+	},
+	{
+		"name": "Reloj",
+		"url": "https://github.com/jaamdev"
+	},
+	{
+		"name": "Reloj",
+		"url": "https://github.com/jaamdev"
+	},
+	{
+		"name": "Slider 3D Puro CSS",
+		"url": "https://github.com/jaamdev"
+	},
+	{
+		"name": "Slider Puro CSS",
+		"url": "https://github.com/jaamdev"
+	},
+	{
+		"name": "Tarjeta Avatar",
+		"url": "https://github.com/jaamdev"
+	},
+	{
+		"name": "Tarjetas Animadas",
+		"url": "https://github.com/jaamdev"
+	},
+	{
+		"name": "Tarjetas de Precios 1",
+		"url": "https://github.com/jaamdev"
+	},
+	{
+		"name": "Tarjetas de Precios 2",
+		"url": "https://github.com/jaamdev"
+	},
+	{
+		"name": "Tarjetas Efecto Flip 3D",
+		"url": "https://github.com/jaamdev"
+	},
+	{
+		"name": "Tarjetas Efecto Parallax",
+		"url": "https://github.com/jaamdev"
+	},
+	{
+		"name": "Tarjetas Seleccionables",
+		"url": "https://github.com/jaamdev"
+	},
+	{
+		"name": "Tarjetas Weird",
+		"url": "https://github.com/jaamdev"
+	},
+	{
+		"name": "Texto Degradado",
+		"url": "https://github.com/jaamdev"
+	},
+	{
+		"name": "To-do",
+		"url": "https://github.com/jaamdev"
+	},
+	{
+		"name": "Triángulo",
+		"url": "https://github.com/jaamdev"
+	},
+	{
+		"name": "Wave Card",
+		"url": "https://github.com/jaamdev"
+	},
+	{
+		"name": "Wave Fondo Animado",
+		"url": "https://github.com/jaamdev"
+	},
+	{
+		"name": "Wave Footer",
+		"url": "https://github.com/jaamdev"
+	},
+	{
+		"name": "Wave Header",
+		"url": "https://github.com/jaamdev"
+	}
+]
