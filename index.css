@@ -21,7 +21,8 @@ html {
 }
 
 body {
-  padding: 0 1rem;
+  max-width: 90vw;
+  margin: 0 auto 4rem auto;
   color: #fff;
   background-color: var(--primary-color);
 }
@@ -177,6 +178,7 @@ body {
 }
 
 .projects__ctn .li {
+  max-width: 50rem;
   border: 0.15rem solid transparent;
   border-radius: 0.3rem;
   background-color: var(--secondary-color);
