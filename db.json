@@ -1,24 +1,27 @@
 [
   {
-    "projectName": "Dental Este",
-    "url": "https://github.com/jaamdev/dental-este-project",
-    "urlImg": "./img/dental-project.jpg",
-    "projectDescription": "Imitación de una clínica dental."
+    "projectName": "PcComponentes",
+    "url": "https://github.com/jaamdev/pccomponentes-project",
+    "urlImg": "./img/pccomponentes-project.jpg",
+    "urlDeploy": "#",
+    "projectDescription": "Imitación de una tienda de componentes y periféricos de ordenadores."
   },
   {
     "projectName": "Wiggle",
     "url": "https://github.com/jaamdev/wiggle-project",
     "urlImg": "./img/bicis-project.jpg",
+    "urlDeploy": "#",
     "projectDescription": "Imitación de una tienda online de artículos deportivos."
   },
   {
-    "projectName": "PcComponentes",
-    "url": "https://github.com/jaamdev/pccomponentes-project",
-    "urlImg": "./img/pccomponentes-project.jpg",
-    "projectDescription": "Imitación de una tienda de componentes y periféricos de ordenadores."
+    "projectName": "Dental Este",
+    "url": "https://github.com/jaamdev/dental-este-project",
+    "urlImg": "./img/dental-project.jpg",
+    "urlDeploy": "#",
+    "projectDescription": "Imitación de una clínica dental."
   },
   {
-    "urlMain": "https://github.com/mouredev/Weekly-Challenge-2022-Kotlin"
+    "urlMain": "https://github.com/jaamdev/practicas"
   },
   {
     "name": "5 Proyectos de React Avanzados",

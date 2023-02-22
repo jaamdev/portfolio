@@ -21,10 +21,56 @@ html {
 }
 
 body {
-  max-width: 90vw;
-  margin: 0 auto 4rem auto;
+  width: 100%;
   color: #fff;
   background-color: var(--primary-color);
+  transition: background-color 300ms;
+}
+
+body:has(.moon.active){
+  --primary-color: #08002c;
+}
+
+.moon,
+.arrow-up {
+  width: 3rem;
+  padding: 0.5rem;
+  border: 0.15rem solid transparent;
+  border-radius: 0.5rem;
+  background-color: var(--secondary-color);
+  position: fixed;
+  z-index: 2;
+  cursor: pointer;
+}
+
+.moon:hover,
+.arrow-up:hover {
+  border-color: #fff;
+}
+
+.moon {
+  fill: transparent;
+  top: 0.5rem;
+  right: 0.5rem;
+  transition: border 300ms;
+}
+
+.moon.active {
+  fill: #fff;
+  border-color: #fff;
+}
+
+.arrow-up {
+  bottom: 0.5rem;
+  right: 0.5rem;
+  transform: scale(0);
+  transition: transform 300ms, opacity 300ms;
+  opacity: 0;
+}
+
+.arrow-up.active {
+  transform: scale(1);
+  opacity: 1;
 }
 
 .main__ctn {
@@ -83,6 +129,11 @@ body {
   font-size: 2em;
   font-weight: 200;
   text-align: center;
+}
+
+.section {
+  margin: auto;
+  max-width: 90vw;
 }
 
 .social__ctn {
@@ -145,7 +196,7 @@ body {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
   list-style-type: none;
   text-align: center;
   gap: 1rem;
@@ -168,50 +219,60 @@ body {
 }
 
 .projects__ctn {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  gap: 1rem;
-  text-align: center;
+  width: 100%;
   list-style-type: none;
-}
-
-.projects__ctn .li .a {
-  padding: 1rem;
-  color: #fff;
-  border: 0.2rem solid transparent;
-  border-radius: 0.5rem;
-  text-decoration: transparent;
-  background-color: var(--secondary-color);
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 0.3rem;
-  transition: border 300ms;
+  gap: 5rem;
 }
 
-.projects__ctn .li .a:hover {
-  border-color: #fff;
-}
-
-.projects__ctn .li .a .img {
-  width: 100%;
-  height: 100%;
-  margin-bottom: 1rem;
-  border-radius: 0.5rem;
-}
-
-.practices__ctn {
-  width: 100%;
-  list-style-type: none;
+.projects__ctn .li {
+  padding-bottom: 5rem;
+  border-bottom: 0.1rem solid var(--secondary-color);
   text-align: center;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 1rem;
+  grid-template-columns: 2fr 1fr;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
 }
 
-.practices__ctn .li .a {
+.projects__ctn .li:nth-child(2) {
+  grid-template-columns: 1fr 2fr;
+}
+
+.projects__ctn .li .img {
+  width: 100%;
+  border-radius: 0.5rem;
+  object-fit: cover;
+}
+
+.projects__ctn .li:nth-child(2) .img {
+  order: 1;
+}
+
+.projects__ctn .li .article {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.projects__ctn .li .article .title {
+  font-size: 1.8em;
+  font-weight: 400;
+  letter-spacing: 0.1rem;
+}
+
+.projects__ctn .li .article .description {
+  max-height: 10rem;
+  margin: 2rem 0;
+  overflow-y: auto;
+}
+
+.projects__ctn .li .article .a {
   width: 100%;
   height: 100%;
   text-decoration: transparent;
@@ -219,8 +280,8 @@ body {
   display: inline-block;
 }
 
-.practices__ctn .li .a::before,
-.practices__ctn .li .a::after {
+.projects__ctn .li .article .a::before,
+.projects__ctn .li .article .a::after {
   content: "";
   position: absolute;
   inset: 0;
@@ -234,21 +295,22 @@ body {
   transition: inset 300ms;
 }
 
-.practices__ctn .li .a:hover::before {
+.projects__ctn .li .article .a:hover::before {
   inset: -3px;
 }
 
-.practices__ctn .li .a:hover::after {
+.projects__ctn .li .article .a:hover::after {
   inset: -3px;
   filter: blur(10px);
 }
 
-.practices__ctn .li .a .title {
+.projects__ctn .li .article .a .span {
   width: inherit;
   height: inherit;
   padding: 1rem;
   color: #fff;
   background-color: var(--secondary-color);
+  font-size: 0.8em;
   letter-spacing: 0.1rem;
   text-transform: uppercase;
   position: relative;
@@ -261,27 +323,29 @@ body {
   z-index: 1;
 }
 
-.practices__ctn .li .a .title::before {
+.projects__ctn .li .article .a .span::before {
+  content: "";
   width: inherit;
   height: inherit;
-  content: "";
+  background: rgba(255, 255, 255, 0.075);
   position: absolute;
   top: 0;
   left: -150%;
-  background: rgba(255, 255, 255, 0.075);
   transform: skew(25deg);
   transition: left 300ms;
 }
 
-.practices__ctn .li .a:hover .title::before {
+.projects__ctn .li .article .a:hover .span::before {
   left: -50%;
 }
 
-.practices__ctn:has(.errorText) {
+.projects__ctn .li:has(.errorText) {
   grid-template-columns: 1fr;
 }
 
 .errorText {
+  width: 100%;
+  height: 100%;
   padding: 2rem;
   color: #fff;
   font-size: 2em;
@@ -299,4 +363,127 @@ body {
   100% {
     background-color: var(--primary-color);
   }
+}
+
+.footer {
+  margin-top: 5rem;
+  padding: 1rem 0;
+  background-color: #202020;
+  text-align: center;
+  font-size: 1.2em;
+  font-weight: 800;
+  letter-spacing: 0.2rem;
+}
+
+@media (max-width: 768px) {
+
+  .h1 {
+    font-size: 8em;
+  }
+
+  .projects__ctn {
+    gap: 2rem;
+  }
+
+  .projects__ctn .li {
+    padding-bottom: 2rem;
+    gap: 1rem;
+  }
+
+  .projects__ctn .li .article .title {
+    font-size: 1.5em;
+  }
+
+  .projects__ctn .li .article .description {
+    margin: 1rem 0;
+  }
+
+  .footer {
+    margin-top: 2rem;
+  }
+
+}
+
+@media (max-width: 600px) {
+
+  .h1 {
+    font-size: 6em;
+  }
+
+}
+
+@media (max-width: 500px) {
+
+  .h1 {
+    font-size: 5em;
+  }
+
+  .h2 {
+    font-size: 2em;
+  }
+
+  .social__ctn {
+    gap: 1rem;
+  }
+
+  .aboutme__ctn .p {
+    margin: 1rem;
+  }
+
+  .projects__ctn .li {
+    padding-bottom: 2rem;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .projects__ctn .li:nth-child(2) {
+    grid-template-columns: 1fr;
+  }
+
+  .projects__ctn .li:nth-child(2) .img {
+    order: 0;
+  }
+
+  .projects__ctn .li .article .title {
+    font-size: 1.5em;
+  }
+
+  .projects__ctn .li .article .description {
+    margin: 1rem 0;
+  }
+
+  .footer {
+    margin-top: 2rem;
+  }
+
+}
+
+@media (max-width: 320px) {
+
+  .h1 {
+    font-size: 3em;
+    letter-spacing: 0.5rem;
+  }
+  
+  .h2 {
+    padding-top: 1rem;
+    font-size: 1.5em;
+    letter-spacing: 0.1rem;
+  }
+
+  .social__ctn {
+    height: 1rem;
+    padding: 0 1rem;
+    gap: 0.5rem;
+  }
+
+  .social__ctn .svg {
+    padding: 0.2rem;
+    width: 3rem;
+  }
+
+  .social__ctn .img {
+    width: 6rem;
+  }
+
 }
