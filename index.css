@@ -195,7 +195,7 @@ body:has(.moon.active) {
 .skills__ctn {
   width: 100%;
   display: flex;
-  flex-direction: row;
+  flex-flow: row wrap;
   align-items: center;
   justify-content: space-evenly;
   list-style-type: none;
@@ -391,7 +391,16 @@ body:has(.moon.active) {
 
   .projects__ctn .li {
     padding-bottom: 2rem;
+    grid-template-columns: 1fr;
     gap: 1rem;
+  }
+
+  .projects__ctn .li:nth-child(2) {
+    grid-template-columns: 1fr;
+  }
+
+  .projects__ctn .li:nth-child(2) .img {
+    order: 0;
   }
 
   .projects__ctn .li .article .title {
@@ -464,16 +473,6 @@ body:has(.moon.active) {
 
   .projects__ctn .li {
     padding-bottom: 1rem;
-    grid-template-columns: 1fr;
-    gap: 1rem;
-  }
-
-  .projects__ctn .li:nth-child(2) {
-    grid-template-columns: 1fr;
-  }
-
-  .projects__ctn .li:nth-child(2) .img {
-    order: 0;
   }
 
   .footer {
