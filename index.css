@@ -7,6 +7,7 @@
   --html-color: #e34f26;
   --css-color: #1572b6;
   --javascript-color: #f7df1e;
+  --react-color: #61dafb;
 }
 
 * {
@@ -27,7 +28,7 @@ body {
   transition: background-color 300ms;
 }
 
-body:has(.moon.active){
+body:has(.moon.active) {
   --primary-color: #08002c;
 }
 
@@ -218,6 +219,10 @@ body:has(.moon.active){
   fill: var(--javascript-color);
 }
 
+.react {
+  fill: var(--react-color);
+}
+
 .projects__ctn {
   width: 100%;
   list-style-type: none;
@@ -376,7 +381,6 @@ body:has(.moon.active){
 }
 
 @media (max-width: 768px) {
-
   .h1 {
     font-size: 8em;
   }
@@ -401,19 +405,15 @@ body:has(.moon.active){
   .footer {
     margin-top: 2rem;
   }
-
 }
 
 @media (max-width: 600px) {
-
   .h1 {
     font-size: 6em;
   }
-
 }
 
 @media (max-width: 500px) {
-
   .main__ctn {
     width: 100%;
     height: auto;
@@ -479,5 +479,4 @@ body:has(.moon.active){
   .footer {
     margin-top: 1rem;
   }
-
 }
