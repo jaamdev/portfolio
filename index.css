@@ -67,6 +67,7 @@ body:has(.moon.active) {
   transform: scale(0);
   transition: transform 300ms, opacity 300ms;
   opacity: 0;
+  transition: border 300ms;
 }
 
 .arrow-up.active {

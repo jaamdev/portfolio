@@ -185,6 +185,10 @@
   },
   {
     "name": "Login Panel 1",
+    "url": "https://github.com/jaamdev/practicas/tree/master/login-panel1-codehal"
+  },
+  {
+    "name": "Login Panel 1",
     "url": "https://github.com/jaamdev/practicas/tree/master/login-panel1-onlinetutorials"
   },
   {
@@ -206,6 +210,14 @@
   {
     "name": "Login Panel 6",
     "url": "https://github.com/jaamdev/practicas/tree/master/login-panel6-onlinetutorials"
+  },
+  {
+    "name": "Login Panel 7",
+    "url": "https://github.com/jaamdev/practicas/tree/master/login-panel7-onlinetutorials"
+  },
+  {
+    "name": "Login Panel 8",
+    "url": "https://github.com/jaamdev/practicas/tree/master/login-panel8-onlinetutorials"
   },
   {
     "name": "Login Panel",
@@ -286,6 +298,10 @@
   {
     "name": "Palíndromo",
     "url": "https://github.com/jaamdev/practicas/tree/master/palindromo-victorrobles"
+  },
+  {
+    "name": "Portfolio 1 - OT",
+    "url": "https://github.com/jaamdev/practicas/tree/master/portfolio1-onlinetutorials"
   },
   {
     "name": "Progreso Circular",
