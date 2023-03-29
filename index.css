@@ -65,9 +65,8 @@ body:has(.moon.active) {
   bottom: 0.5rem;
   right: 0.5rem;
   transform: scale(0);
-  transition: transform 300ms, opacity 300ms;
+  transition: transform 300ms, opacity 300ms, border 300ms;
   opacity: 0;
-  transition: border 300ms;
 }
 
 .arrow-up.active {
@@ -171,6 +170,9 @@ body:has(.moon.active) {
 
 .social__ctn .img {
   width: 11rem;
+  height: 11rem;
+  object-fit: cover;
+  background-color: #fff;
   border-radius: 50%;
 }
 
@@ -462,6 +464,7 @@ body:has(.moon.active) {
 
   .social__ctn .img {
     width: 6rem;
+    height: 6rem;
   }
 
   .aboutme__ctn .p {
