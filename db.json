@@ -68,6 +68,10 @@
     "url": "https://github.com/jaamdev/practicas/tree/master/calculadora2-onlinetutorials"
   },
   {
+    "name": "Calculadora 3",
+    "url": "https://github.com/jaamdev/practicas/tree/master/calculadora3-onlinetutorials"
+  },
+  {
     "name": "Calculadora",
     "url": "https://github.com/jaamdev/practicas/tree/master/calculadora-programacionaccesible"
   },
@@ -220,6 +224,10 @@
     "url": "https://github.com/jaamdev/practicas/tree/master/login-panel8-onlinetutorials"
   },
   {
+    "name": "Login Panel 9",
+    "url": "https://github.com/jaamdev/practicas/tree/master/login-panel9-onlinetutorials"
+  },
+  {
     "name": "Login Panel",
     "url": "https://github.com/jaamdev/practicas/tree/master/login-panel-lexterxps"
   },
@@ -304,8 +312,12 @@
     "url": "https://github.com/jaamdev/practicas/tree/master/portfolio1-onlinetutorials"
   },
   {
-    "name": "Progreso Circular",
+    "name": "Progreso Circular - ET",
     "url": "https://github.com/jaamdev/practicas/tree/master/progreso-circular-edteam"
+  },
+  {
+    "name": "Progreso Circular - OT",
+    "url": "https://github.com/jaamdev/practicas/tree/master/progreso-circular-onlinetutorials"
   },
   {
     "name": "Reloj 1",
