@@ -402,11 +402,15 @@ body:has(.moon.active) {
     gap: 1rem;
   }
 
-  .projects__ctn .li:nth-child(2) {
+  .projects__ctn .li:nth-child(2),
+  .projects__ctn .li:nth-child(4),
+  .projects__ctn .li:nth-child(6) {
     grid-template-columns: 1fr;
   }
 
-  .projects__ctn .li:nth-child(2) .img {
+  .projects__ctn .li:nth-child(2) .img,
+  .projects__ctn .li:nth-child(4) .img,
+  .projects__ctn .li:nth-child(6) .img {
     order: 0;
   }
 
