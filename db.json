@@ -1,5 +1,12 @@
 [
   {
+    "projectName": "Tareas",
+    "url": "https://github.com/jaamdev/tasks-frontend-project",
+    "urlImg": "./img/tasks-project.jpg",
+    "urlDeploy": "https://tasks-frontend-project.vercel.app/",
+    "projectDescription": "Gestor de tareas (ToDo), con registro de usuarios, backend, base de datos en mongo, Tokens con JWT y cifrado de contraseñas."
+  },
+  {
     "projectName": "Lista de Lectura",
     "url": "https://github.com/jaamdev/prueba-reading-list",
     "urlImg": "./img/reading-list-prueba.jpg",
@@ -113,12 +120,16 @@
     "url": "https://github.com/jaamdev/practicas/tree/master/cronometro-programacionaccesible"
   },
   {
-    "name": "Cuenta Regresiva",
+    "name": "Cuenta Regresiva - ET",
     "url": "https://github.com/jaamdev/practicas/tree/master/cuenta-regresiva-edteam"
   },
   {
-    "name": "Cuenta Regresiva",
+    "name": "Cuenta Regresiva - FM",
     "url": "https://github.com/jaamdev/practicas/tree/master/cuenta-regresiva-falconmasters"
+  },
+  {
+    "name": "Cuenta Regresiva - OT",
+    "url": "https://github.com/jaamdev/practicas/tree/master/cuenta-regresiva-onlinetutorials"
   },
   {
     "name": "Cup Tea",

@@ -247,9 +247,7 @@ body:has(.moon.active) {
   gap: 2rem;
 }
 
-.projects__ctn .li:nth-child(2),
-.projects__ctn .li:nth-child(4),
-.projects__ctn .li:nth-child(6) {
+.projects__ctn .li:nth-child(2n) {
   grid-template-columns: 1fr 2fr;
 }
 
@@ -259,9 +257,7 @@ body:has(.moon.active) {
   object-fit: cover;
 }
 
-.projects__ctn .li:nth-child(2) .img,
-.projects__ctn .li:nth-child(4) .img,
-.projects__ctn .li:nth-child(6) .img {
+.projects__ctn .li:nth-child(2n) .img {
   order: 1;
 }
 
@@ -402,15 +398,11 @@ body:has(.moon.active) {
     gap: 1rem;
   }
 
-  .projects__ctn .li:nth-child(2),
-  .projects__ctn .li:nth-child(4),
-  .projects__ctn .li:nth-child(6) {
+  .projects__ctn .li:nth-child(2n) {
     grid-template-columns: 1fr;
   }
 
-  .projects__ctn .li:nth-child(2) .img,
-  .projects__ctn .li:nth-child(4) .img,
-  .projects__ctn .li:nth-child(6) .img {
+  .projects__ctn .li:nth-child(2n) .img {
     order: 0;
   }
 
