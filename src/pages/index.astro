@@ -1,0 +1,23 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Section from "../layouts/Section.astro";
+import Header from "../components/Header.astro";
+import Skills from "../components/Skills.astro";
+import Projects from "../components/Projects.astro";
+import DarkButton from "../components/DarkButton.astro";
+import UpButton from "../components/UpButton.astro";
+import Footer from '../components/Footer.astro';
+---
+
+<Layout title="Portafolio - JaamDev">
+	<DarkButton />
+	<UpButton />
+	<Header />
+	<Section title="Conocimientos">
+		<Skills />
+	</Section>
+	<Section title="Proyectos">
+		<Projects />
+	</Section>
+	<Footer />
+</Layout>

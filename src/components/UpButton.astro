@@ -1,0 +1,63 @@
+<script>
+	const $arrowUp = document.querySelector(".arrow-up")
+
+	function upButton() {
+		window.onscroll = () => {
+    	scrollY > 300
+     	? $arrowUp.classList.add("active")
+     	: $arrowUp.classList.remove("active")
+  	}
+
+  	$arrowUp.addEventListener("click", () => {
+    	scrollTo({
+    	  top: 0,
+    	  behavior: "smooth"
+    	})
+  	})
+	}
+
+	upButton()
+</script>
+
+<svg
+	class="arrow-up"
+	xmlns="http://www.w3.org/2000/svg"
+	viewBox="0 0 512 512"
+>
+	<title>Ir Arriba</title>
+	<path
+		role="img"
+		fill="none"
+		stroke="currentColor"
+		stroke-linecap="round"
+		stroke-linejoin="round"
+		stroke-width="48"
+		d="M112 328l144-144 144 144"></path>
+</svg>
+
+<style>
+	svg {
+		width: 3rem;
+  	padding: 0.5rem;
+  	border: 0.15rem solid transparent;
+  	border-radius: 0.5rem;
+  	background-color: var(--secondary-color);
+  	position: fixed;
+  	z-index: 2;
+  	cursor: pointer;
+		bottom: 0.5rem;
+  	right: 0.5rem;
+  	transform: scale(0);
+  	transition: transform 300ms, opacity 300ms, border 300ms;
+  	opacity: 0;
+	}
+
+	svg:hover {
+		border-color: #fff;
+	}
+
+	svg.active {
+		transform: scale(1);
+  	opacity: 1;
+	}
+</style>

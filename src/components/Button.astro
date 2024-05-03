@@ -1,0 +1,76 @@
+---
+const { repo, href } = Astro.props;
+---
+
+<a href={href} target="_blank" rel="noopener noreferrer">
+	<span>{repo ? "Ir al repositorio" : "Ir al deploy"}</span>
+</a>
+
+<style>
+	a {
+		width: 100%;
+		height: 100%;
+		text-decoration: transparent;
+		position: relative;
+		display: inline-block;
+	}
+
+	a::before,
+	a::after {
+		content: "";
+		position: absolute;
+		inset: 0;
+		background: linear-gradient(
+			45deg,
+			#f00,
+			var(--primary-color),
+			var(--primary-color),
+			#0f0
+		);
+		transition: inset 300ms;
+	}
+
+	a:hover::before {
+		inset: -3px;
+	}
+
+	a:hover::after {
+		inset: -3px;
+		filter: blur(10px);
+	}
+
+	span {
+		width: inherit;
+		height: inherit;
+		padding: 1rem;
+		color: #fff;
+		background-color: var(--secondary-color);
+		font-size: 0.8em;
+		letter-spacing: 0.1rem;
+		text-transform: uppercase;
+		position: relative;
+		overflow: hidden;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		top: 0;
+		left: 0;
+		z-index: 1;
+	}
+
+	span::before {
+		content: "";
+		width: inherit;
+		height: inherit;
+		background: rgba(255, 255, 255, 0.075);
+		position: absolute;
+		top: 0;
+		left: -150%;
+		transform: skew(25deg);
+		transition: left 300ms;
+	}
+
+	a:hover span::before {
+		left: -50%;
+	}
+</style>

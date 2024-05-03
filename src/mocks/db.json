@@ -1,0 +1,493 @@
+[
+  {
+    "projectName": "Tareas",
+    "url": "https://github.com/jaamdev/tasks-frontend-project",
+    "urlImg": "./tasks-project.jpg",
+    "urlDeploy": "https://tasks-frontend-project.vercel.app/",
+    "projectDescription": "Gestor de tareas (ToDo), con registro de usuarios, backend, base de datos en mongo, Tokens con JWT y cifrado de contraseñas."
+  },
+  {
+    "projectName": "Bazar Universal",
+    "url": "https://github.com/jaamdev/prueba-bazar-universal-frontend",
+    "urlImg": "./bazar-universal-prueba.jpg",
+    "urlDeploy": "https://prueba-bazar-universal-frontend.vercel.app",
+    "projectDescription": "Un bazar para la adquisición de diferentes productos electrónicos y para el hogar con cliente y servidor."
+  },
+  {
+    "projectName": "Lista de Lectura",
+    "url": "https://github.com/jaamdev/prueba-reading-list",
+    "urlImg": "./reading-list-prueba.jpg",
+    "urlDeploy": "https://jaamdev.github.io/prueba-reading-list",
+    "projectDescription": "Lista de lectura en la que el usuario puede guardar en una lista los libros que seleccione de los disponibles."
+  },
+  {
+    "projectName": "Busca Pelis",
+    "url": "https://github.com/jaamdev/busca-pelis-project",
+    "urlImg": "./busca-pelis-project.jpg",
+    "urlDeploy": "https://jaamdev.github.io/busca-pelis-project",
+    "projectDescription": "Un buscador de películas creada en ReactJS."
+  },
+  {
+    "projectName": "DC6 - Fuel Calculator",
+    "url": "https://github.com/jaamdev/dc6-fuel-calculator",
+    "urlImg": "./dc6-fuel-calculator-project.jpg",
+    "urlDeploy": "https://jaamdev.github.io/dc6-fuel-calculator",
+    "projectDescription": "Calculadora de combustible para el DC-6A/B de PMDG para Microsoft Flight Simulator 2020."
+  },
+  {
+    "projectName": "PcHardware",
+    "url": "https://github.com/jaamdev/pchardware-project",
+    "urlImg": "./pchardware-project.jpg",
+    "urlDeploy": "https://jaamdev.github.io/pchardware-project",
+    "projectDescription": "Imitación de una tienda de componentes y periféricos de ordenadores."
+  },
+  {
+    "projectName": "Bicis",
+    "url": "https://github.com/jaamdev/bicis-project",
+    "urlImg": "./bicis-project.jpg",
+    "urlDeploy": "https://jaamdev.github.io/bicis-project",
+    "projectDescription": "Imitación de una tienda online de artículos deportivos."
+  },
+  {
+    "projectName": "Clínica Dental",
+    "url": "https://github.com/jaamdev/clinica-dental-project",
+    "urlImg": "./clinica-dental-project.jpg",
+    "urlDeploy": "https://jaamdev.github.io/clinica-dental-project",
+    "projectDescription": "Imitación de una clínica dental."
+  },
+  {
+    "urlMain": "https://github.com/jaamdev/practicas"
+  },
+  {
+    "name": "5 Proyectos de React Avanzados",
+    "url": "https://github.com/jaamdev/practicas/tree/master/5-proyectos-react-avanzados-vidamr"
+  },
+  {
+    "name": "5 Proyectos de React",
+    "url": "https://github.com/jaamdev/practicas/tree/master/5-proyectos-react-vidamr"
+  },
+  {
+    "name": "10 Proyectos de JS",
+    "url": "https://github.com/jaamdev/practicas/tree/master/10-proyectos-js-vidamr"
+  },
+  {
+    "name": "20 Proyectos de CSS",
+    "url": "https://github.com/jaamdev/practicas/tree/master/20-proyectos-css-vidamr"
+  },
+  {
+    "name": "Acordeon JS",
+    "url": "https://github.com/jaamdev/practicas/tree/master/acordeon-js-eduardofierro"
+  },
+  {
+    "name": "Acordeon sin JS",
+    "url": "https://github.com/jaamdev/practicas/tree/master/acordeon-sin-js-j%26gproyectosweb"
+  },
+  {
+    "name": "Agenda",
+    "url": "https://github.com/jaamdev/practicas/tree/master/agenda-codificandolo"
+  },
+  {
+    "name": "Aviso Cookies",
+    "url": "https://github.com/jaamdev/practicas/tree/master/aviso-cookies-falconmasters"
+  },
+  {
+    "name": "Blog",
+    "url": "https://github.com/jaamdev/practicas/tree/master/blog-magtimus"
+  },
+  {
+    "name": "Calculadora 1",
+    "url": "https://github.com/jaamdev/practicas/tree/master/calculadora1-onlinetutorials"
+  },
+  {
+    "name": "Calculadora 2",
+    "url": "https://github.com/jaamdev/practicas/tree/master/calculadora2-onlinetutorials"
+  },
+  {
+    "name": "Calculadora 3",
+    "url": "https://github.com/jaamdev/practicas/tree/master/calculadora3-onlinetutorials"
+  },
+  {
+    "name": "Calculadora",
+    "url": "https://github.com/jaamdev/practicas/tree/master/calculadora-programacionaccesible"
+  },
+  {
+    "name": "Calendario",
+    "url": "https://github.com/jaamdev/practicas/tree/master/calendario-onlinetutorials"
+  },
+  {
+    "name": "Cifrado César",
+    "url": "https://github.com/jaamdev/practicas/tree/master/cifrado-cesar-programacionaccesible"
+  },
+  {
+    "name": "Clima",
+    "url": "https://github.com/jaamdev/practicas/tree/master/clima-programacionaccesible"
+  },
+  {
+    "name": "Cronómetro",
+    "url": "https://github.com/jaamdev/practicas/tree/master/cronometro-programacionaccesible"
+  },
+  {
+    "name": "Cuenta Regresiva - ET",
+    "url": "https://github.com/jaamdev/practicas/tree/master/cuenta-regresiva-edteam"
+  },
+  {
+    "name": "Cuenta Regresiva - FM",
+    "url": "https://github.com/jaamdev/practicas/tree/master/cuenta-regresiva-falconmasters"
+  },
+  {
+    "name": "Cuenta Regresiva - OT",
+    "url": "https://github.com/jaamdev/practicas/tree/master/cuenta-regresiva-onlinetutorials"
+  },
+  {
+    "name": "Cup Tea",
+    "url": "https://github.com/jaamdev/practicas/tree/master/cup-tea-onlinetutorials"
+  },
+  {
+    "name": "Dark Mode",
+    "url": "https://github.com/jaamdev/practicas/tree/master/dark-mode-falconmasters"
+  },
+  {
+    "name": "Efecto Escritura",
+    "url": "https://github.com/jaamdev/practicas/tree/master/efecto-escritura-falconmasters"
+  },
+  {
+    "name": "Efecto Hover 1",
+    "url": "https://github.com/jaamdev/practicas/tree/master/efecto-hover1-magtimus"
+  },
+  {
+    "name": "Efecto Hover 2",
+    "url": "https://github.com/jaamdev/practicas/tree/master/efecto-hover2-magtimus"
+  },
+  {
+    "name": "Efecto Hover 1",
+    "url": "https://github.com/jaamdev/practicas/tree/master/efecto-hover1-onlinetutorials"
+  },
+  {
+    "name": "Efecto Hover Botón",
+    "url": "https://github.com/jaamdev/practicas/tree/master/efecto-hover-button-onlinetutorials"
+  },
+  {
+    "name": "Efecto Hover List 1",
+    "url": "https://github.com/jaamdev/practicas/tree/master/efecto-hover-list1-onlinetutorials"
+  },
+  {
+    "name": "Efecto Hover List 2",
+    "url": "https://github.com/jaamdev/practicas/tree/master/efecto-hover-list2-onlinetutorials"
+  },
+  {
+    "name": "Efecto Hover List 3",
+    "url": "https://github.com/jaamdev/practicas/tree/master/efecto-hover-list3-onlinetutorials"
+  },
+  {
+    "name": "Efecto Hover Menu 1",
+    "url": "https://github.com/jaamdev/practicas/tree/master/efecto-hover-menu1-onlinetutorials"
+  },
+  {
+    "name": "Efecto Reflejo",
+    "url": "https://github.com/jaamdev/practicas/tree/master/efecto-reflejo-magtimus"
+  },
+  {
+    "name": "FAQ",
+    "url": "https://github.com/jaamdev/practicas/tree/master/faq-falconmasters"
+  },
+  {
+    "name": "Fetch 1",
+    "url": "https://github.com/jaamdev/practicas/tree/master/fetch1-codificandolo"
+  },
+  {
+    "name": "Fetch 2",
+    "url": "https://github.com/jaamdev/practicas/tree/master/fetch2-codificandolo"
+  },
+  {
+    "name": "Fetch",
+    "url": "https://github.com/jaamdev/practicas/tree/master/fetch-carlosazaustre"
+  },
+  {
+    "name": "Fondo Abstracto",
+    "url": "https://github.com/jaamdev/practicas/tree/master/fondo-abstracto-onlinetutorials"
+  },
+  {
+    "name": "Formulario Pro",
+    "url": "https://github.com/jaamdev/practicas/tree/master/formulario-pro-falconmasters"
+  },
+  {
+    "name": "Keyboard UI",
+    "url": "https://github.com/jaamdev/practicas/tree/master/keyboard-ui-onlinetutorials"
+  },
+  {
+    "name": "Landing Page",
+    "url": "https://github.com/jaamdev/practicas/tree/master/landing-page-magtimus"
+  },
+  {
+    "name": "Loader",
+    "url": "https://github.com/jaamdev/practicas/tree/master/loader-lexterxps"
+  },
+  {
+    "name": "Login",
+    "url": "https://github.com/jaamdev/practicas/tree/master/login-panel-onlinetutorials"
+  },
+  {
+    "name": "Login Panel 1",
+    "url": "https://github.com/jaamdev/practicas/tree/master/login-panel1-codehal"
+  },
+  {
+    "name": "Login Panel 1",
+    "url": "https://github.com/jaamdev/practicas/tree/master/login-panel1-onlinetutorials"
+  },
+  {
+    "name": "Login Panel 2",
+    "url": "https://github.com/jaamdev/practicas/tree/master/login-panel2-onlinetutorials"
+  },
+  {
+    "name": "Login Panel 3",
+    "url": "https://github.com/jaamdev/practicas/tree/master/login-panel3-onlinetutorials"
+  },
+  {
+    "name": "Login Panel 4",
+    "url": "https://github.com/jaamdev/practicas/tree/master/login-panel4-onlinetutorials"
+  },
+  {
+    "name": "Login Panel 5",
+    "url": "https://github.com/jaamdev/practicas/tree/master/login-panel5-onlinetutorials"
+  },
+  {
+    "name": "Login Panel 6",
+    "url": "https://github.com/jaamdev/practicas/tree/master/login-panel6-onlinetutorials"
+  },
+  {
+    "name": "Login Panel 7",
+    "url": "https://github.com/jaamdev/practicas/tree/master/login-panel7-onlinetutorials"
+  },
+  {
+    "name": "Login Panel 8",
+    "url": "https://github.com/jaamdev/practicas/tree/master/login-panel8-onlinetutorials"
+  },
+  {
+    "name": "Login Panel 9",
+    "url": "https://github.com/jaamdev/practicas/tree/master/login-panel9-onlinetutorials"
+  },
+  {
+    "name": "Login Panel 10",
+    "url": "https://github.com/jaamdev/practicas/tree/master/login-panel10-onlinetutorials"
+  },
+  {
+    "name": "Login Panel 11",
+    "url": "https://github.com/jaamdev/practicas/tree/master/login-panel11-onlinetutorials"
+  },
+  {
+    "name": "Login Panel 12",
+    "url": "https://github.com/jaamdev/practicas/tree/master/login-panel12-onlinetutorials"
+  },
+  {
+    "name": "Login Panel",
+    "url": "https://github.com/jaamdev/practicas/tree/master/login-panel-lexterxps"
+  },
+  {
+    "name": "Login Panel Jaamdev",
+    "url": "https://github.com/jaamdev/practicas/tree/master/login-panel-jaamdev"
+  },
+  {
+    "name": "Login Panel",
+    "url": "https://github.com/jaamdev/practicas/tree/master/login-panel-magtimus"
+  },
+  {
+    "name": "Login Panel",
+    "url": "https://github.com/jaamdev/practicas/tree/master/login-naviscode"
+  },
+  {
+    "name": "Login Panel",
+    "url": "https://github.com/jaamdev/practicas/tree/master/login-panel1-truecoder"
+  },
+  {
+    "name": "Menú Desplegable",
+    "url": "https://github.com/jaamdev/practicas/tree/master/menu-desplegable-j%26gproyectosweb"
+  },
+  {
+    "name": "Menú Desplegable",
+    "url": "https://github.com/jaamdev/practicas/tree/master/menu-desplegable-magtimus"
+  },
+  {
+    "name": "Menu Horizontal",
+    "url": "https://github.com/jaamdev/practicas/tree/master/menu-horizontal-j%26gproyectosweb"
+  },
+  {
+    "name": "Menu de Puntos",
+    "url": "https://github.com/jaamdev/practicas/tree/master/menu-puntos-onlinetutorials"
+  },
+  {
+    "name": "Menu Responsive",
+    "url": "https://github.com/jaamdev/practicas/tree/master/menu-responsive-onlinetutorials"
+  },
+  {
+    "name": "Menu Team",
+    "url": "https://github.com/jaamdev/practicas/tree/master/menu-team-onlinetutorials"
+  },
+  {
+    "name": "Menu Vertical",
+    "url": "https://github.com/jaamdev/practicas/tree/master/menu-vertical-magtimus"
+  },
+  {
+    "name": "Menu Vertical Puntos",
+    "url": "https://github.com/jaamdev/practicas/tree/master/menu-vertical-puntos-falconmasters"
+  },
+  {
+    "name": "Nav 3D",
+    "url": "https://github.com/jaamdev/practicas/tree/master/nav-3d-truecoder"
+  },
+  {
+    "name": "Nav Animated Tab Bar",
+    "url": "https://github.com/jaamdev/practicas/tree/master/nav-animated-tab-bar-onlinetutorials"
+  },
+  {
+    "name": "Nav Glow",
+    "url": "https://github.com/jaamdev/practicas/tree/master/nav-glow-onlinetutorials"
+  },
+  {
+    "name": "Nav Magic 1",
+    "url": "https://github.com/jaamdev/practicas/tree/master/nav-magic1-onlinetutorials"
+  },
+  {
+    "name": "Nav Magic 2",
+    "url": "https://github.com/jaamdev/practicas/tree/master/nav-magic2-onlinetutorials"
+  },
+  {
+    "name": "Entero a Romano",
+    "url": "https://github.com/jaamdev/practicas/tree/master/numero-a-romano-vidamr"
+  },
+  {
+    "name": "Palíndromo",
+    "url": "https://github.com/jaamdev/practicas/tree/master/palindromo-victorrobles"
+  },
+  {
+    "name": "Portfolio 1 - OT",
+    "url": "https://github.com/jaamdev/practicas/tree/master/portfolio1-onlinetutorials"
+  },
+  {
+    "name": "Progreso Circular - ET",
+    "url": "https://github.com/jaamdev/practicas/tree/master/progreso-circular-edteam"
+  },
+  {
+    "name": "Progreso Circular - OT",
+    "url": "https://github.com/jaamdev/practicas/tree/master/progreso-circular-onlinetutorials"
+  },
+  {
+    "name": "Reloj 1",
+    "url": "https://github.com/jaamdev/practicas/tree/master/reloj1-onlinetutorials"
+  },
+  {
+    "name": "Reloj 2",
+    "url": "https://github.com/jaamdev/practicas/tree/master/reloj2-onlinetutorials"
+  },
+  {
+    "name": "Reloj 3",
+    "url": "https://github.com/jaamdev/practicas/tree/master/reloj3-onlinetutorials"
+  },
+  {
+    "name": "Reloj 4",
+    "url": "https://github.com/jaamdev/practicas/tree/master/reloj4-onlinetutorials"
+  },
+  {
+    "name": "Reloj 5",
+    "url": "https://github.com/jaamdev/practicas/tree/master/reloj5-onlinetutorials"
+  },
+  {
+    "name": "Reloj 6",
+    "url": "https://github.com/jaamdev/practicas/tree/master/reloj6-onlinetutorials"
+  },
+  {
+    "name": "Reloj 7",
+    "url": "https://github.com/jaamdev/practicas/tree/master/reloj7-onlinetutorials"
+  },
+  {
+    "name": "Reloj 8",
+    "url": "https://github.com/jaamdev/practicas/tree/master/reloj8-onlinetutorials"
+  },
+  {
+    "name": "Reloj",
+    "url": "https://github.com/jaamdev/practicas/tree/master/reloj-codificandolo"
+  },
+  {
+    "name": "Reloj",
+    "url": "https://github.com/jaamdev/practicas/tree/master/reloj-falconmasters"
+  },
+  {
+    "name": "Reloj",
+    "url": "https://github.com/jaamdev/practicas/tree/master/reloj-truecoder"
+  },
+  {
+    "name": "Slider 3D Puro CSS",
+    "url": "https://github.com/jaamdev/practicas/tree/master/slider-3d-puro-css-magtimus"
+  },
+  {
+    "name": "Slider Puro CSS",
+    "url": "https://github.com/jaamdev/practicas/tree/master/slider-puro-css-magtimus"
+  },
+  {
+    "name": "Tarjeta Avatar",
+    "url": "https://github.com/jaamdev/practicas/tree/master/tarjeta-avatar-onlinetutorials"
+  },
+  {
+    "name": "Tarjeta de Perfil Animada",
+    "url": "https://github.com/jaamdev/practicas/tree/master/tarjeta-perfil-onlinetutorials"
+  },
+  {
+    "name": "Tarjetas Animadas",
+    "url": "https://github.com/jaamdev/practicas/tree/master/tarjetas-animadas-onlinetutorials"
+  },
+  {
+    "name": "Tarjetas de Precios 1",
+    "url": "https://github.com/jaamdev/practicas/tree/master/tarjetas-de-precios-jaamdev"
+  },
+  {
+    "name": "Tarjetas de Precios 2",
+    "url": "https://github.com/jaamdev/practicas/tree/master/tarjetas-de-precios2"
+  },
+  {
+    "name": "Tarjetas Efecto Flip 3D",
+    "url": "https://github.com/jaamdev/practicas/tree/master/tarjetas-efecto-flip-3d-magtimus"
+  },
+  {
+    "name": "Tarjetas Efecto Parallax",
+    "url": "https://github.com/jaamdev/practicas/tree/master/tarjetas-efecto-parallax-magtimus"
+  },
+  {
+    "name": "Tarjetas Seleccionables",
+    "url": "https://github.com/jaamdev/practicas/tree/master/tarjetas-seleccionables-magtimus"
+  },
+  {
+    "name": "Tarjetas Weird",
+    "url": "https://github.com/jaamdev/practicas/tree/master/tarjetas-weird-onlinetutorials"
+  },
+  {
+    "name": "Texto Degradado",
+    "url": "https://github.com/jaamdev/practicas/tree/master/texto-degradado-magtimus"
+  },
+  {
+    "name": "To-Do OA",
+    "url": "https://github.com/jaamdev/practicas/tree/master/to-do-onlinetutorials"
+  },
+  {
+    "name": "To-Do PA",
+    "url": "https://github.com/jaamdev/practicas/tree/master/to-do-programacionaccesible"
+  },
+  {
+    "name": "Triángulo",
+    "url": "https://github.com/jaamdev/practicas/tree/master/triangulo-magtimus"
+  },
+  {
+    "name": "Wave Card",
+    "url": "https://github.com/jaamdev/practicas/tree/master/wave-card-magtimus"
+  },
+  {
+    "name": "Wave Fondo Animado",
+    "url": "https://github.com/jaamdev/practicas/tree/master/wave-fondo-animado-magtimus"
+  },
+  {
+    "name": "Wave Footer",
+    "url": "https://github.com/jaamdev/practicas/tree/master/wave-footer-magtimus"
+  },
+  {
+    "name": "Wave Header",
+    "url": "https://github.com/jaamdev/practicas/tree/master/wave-header-magtimus"
+  }
+]

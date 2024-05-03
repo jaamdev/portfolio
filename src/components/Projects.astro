@@ -1,0 +1,120 @@
+---
+import db from "../mocks/db.json";
+import Button from "./Button.astro";
+---
+
+<article>
+	<ul>
+		{
+			db.map(({ projectName, projectDescription, url, urlImg, urlDeploy }) => {
+				if (projectName) {
+					return (
+						<li>
+							<img src={urlImg} alt={`Imagen del proyecto ${projectName}`} />
+							<article>
+								<h3>{projectName}</h3>
+								<p>{projectDescription}</p>
+								<Button repo href={url} />
+								<Button href={urlDeploy} />
+							</article>
+						</li>
+					);
+				}
+			})
+		}
+	</ul>
+</article>
+
+<style>
+	ul {
+		width: 100%;
+		list-style-type: none;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		gap: 5rem;
+	}
+
+	li {
+		padding-bottom: 5rem;
+		border-bottom: 0.1rem solid var(--secondary-color);
+		text-align: center;
+		display: grid;
+		grid-template-columns: 2fr 1fr;
+		justify-content: center;
+		align-items: center;
+		gap: 2rem;
+	}
+
+	li:nth-child(2n) {
+		grid-template-columns: 1fr 2fr;
+	}
+
+	img {
+		width: 100%;
+		border-radius: 0.5rem;
+		object-fit: cover;
+	}
+
+	li:nth-child(2n) img {
+		order: 1;
+	}
+
+	article {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		gap: 0.5rem;
+	}
+
+	h3 {
+		font-size: 1.8em;
+		font-weight: 400;
+		letter-spacing: 0.1rem;
+	}
+
+	p {
+		max-height: 10rem;
+		margin: 2rem 0;
+		overflow-y: auto;
+	}
+
+	@media (max-width: 768px) {
+		ul {
+			gap: 2rem;
+		}
+
+		li {
+			padding-bottom: 2rem;
+			grid-template-columns: 1fr;
+			gap: 1rem;
+		}
+
+		li:nth-child(2n) {
+			grid-template-columns: 1fr;
+		}
+
+		li:nth-child(2n) img {
+			order: 0;
+		}
+
+		h3 {
+			font-size: 1.5em;
+		}
+
+		p {
+			margin: 1rem 0;
+		}
+	}
+
+	@media (max-width: 500px) {
+		ul {
+			gap: 1rem;
+		}
+
+		li {
+			padding-bottom: 1rem;
+		}
+	}
+</style>
