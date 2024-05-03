@@ -2,56 +2,56 @@
   {
     "projectName": "Tareas",
     "url": "https://github.com/jaamdev/tasks-frontend-project",
-    "urlImg": "./tasks-project.jpg",
+    "urlImg": "./portfolio/tasks-project.jpg",
     "urlDeploy": "https://tasks-frontend-project.vercel.app/",
     "projectDescription": "Gestor de tareas (ToDo), con registro de usuarios, backend, base de datos en mongo, Tokens con JWT y cifrado de contraseñas."
   },
   {
     "projectName": "Bazar Universal",
     "url": "https://github.com/jaamdev/prueba-bazar-universal-frontend",
-    "urlImg": "./bazar-universal-prueba.jpg",
+    "urlImg": "./portfolio/bazar-universal-prueba.jpg",
     "urlDeploy": "https://prueba-bazar-universal-frontend.vercel.app",
     "projectDescription": "Un bazar para la adquisición de diferentes productos electrónicos y para el hogar con cliente y servidor."
   },
   {
     "projectName": "Lista de Lectura",
     "url": "https://github.com/jaamdev/prueba-reading-list",
-    "urlImg": "./reading-list-prueba.jpg",
+    "urlImg": "./portfolio/reading-list-prueba.jpg",
     "urlDeploy": "https://jaamdev.github.io/prueba-reading-list",
     "projectDescription": "Lista de lectura en la que el usuario puede guardar en una lista los libros que seleccione de los disponibles."
   },
   {
     "projectName": "Busca Pelis",
     "url": "https://github.com/jaamdev/busca-pelis-project",
-    "urlImg": "./busca-pelis-project.jpg",
+    "urlImg": "./portfolio/busca-pelis-project.jpg",
     "urlDeploy": "https://jaamdev.github.io/busca-pelis-project",
     "projectDescription": "Un buscador de películas creada en ReactJS."
   },
   {
     "projectName": "DC6 - Fuel Calculator",
     "url": "https://github.com/jaamdev/dc6-fuel-calculator",
-    "urlImg": "./dc6-fuel-calculator-project.jpg",
+    "urlImg": "./portfolio/dc6-fuel-calculator-project.jpg",
     "urlDeploy": "https://jaamdev.github.io/dc6-fuel-calculator",
     "projectDescription": "Calculadora de combustible para el DC-6A/B de PMDG para Microsoft Flight Simulator 2020."
   },
   {
     "projectName": "PcHardware",
     "url": "https://github.com/jaamdev/pchardware-project",
-    "urlImg": "./pchardware-project.jpg",
+    "urlImg": "./portfolio/pchardware-project.jpg",
     "urlDeploy": "https://jaamdev.github.io/pchardware-project",
     "projectDescription": "Imitación de una tienda de componentes y periféricos de ordenadores."
   },
   {
     "projectName": "Bicis",
     "url": "https://github.com/jaamdev/bicis-project",
-    "urlImg": "./bicis-project.jpg",
+    "urlImg": "./portfolio/bicis-project.jpg",
     "urlDeploy": "https://jaamdev.github.io/bicis-project",
     "projectDescription": "Imitación de una tienda online de artículos deportivos."
   },
   {
     "projectName": "Clínica Dental",
     "url": "https://github.com/jaamdev/clinica-dental-project",
-    "urlImg": "./clinica-dental-project.jpg",
+    "urlImg": "./portfolio/clinica-dental-project.jpg",
     "urlDeploy": "https://jaamdev.github.io/clinica-dental-project",
     "projectDescription": "Imitación de una clínica dental."
   },
