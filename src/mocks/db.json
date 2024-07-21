@@ -1,9 +1,16 @@
 [
   {
+    "projectName": "HouseTrav",
+    "url": "https://github.com/jaamdev/housetrav-frontend-project",
+    "urlImg": "/portfolio/housetrav-project.webp",
+    "urlDeploy": "https://housetrav-frontend-project-production.up.railway.app",
+    "projectDescription": "Un portal inmobiliario en el cual puedes anunciar un chalet, apartamento, casa, edificio o terreno para vender o alquilar y con subida de imágenes para cada inmueble."
+  },
+  {
     "projectName": "Tareas",
     "url": "https://github.com/jaamdev/tasks-frontend-project",
     "urlImg": "/portfolio/tasks-project.jpg",
-    "urlDeploy": "https://tasks-frontend-project.vercel.app/",
+    "urlDeploy": "https://tasks-frontend-project.vercel.app",
     "projectDescription": "Gestor de tareas (ToDo), con registro de usuarios, backend, base de datos en mongo, Tokens con JWT y cifrado de contraseñas."
   },
   {
