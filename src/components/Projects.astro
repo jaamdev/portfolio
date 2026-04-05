@@ -15,7 +15,7 @@ import Button from "./Button.astro";
 								<h3>{projectName}</h3>
 								<p>{projectDescription}</p>
 								<Button repo href={url} />
-								<Button href={urlDeploy} />
+								{urlDeploy && <Button href={urlDeploy} />}
 							</article>
 						</li>
 					);
