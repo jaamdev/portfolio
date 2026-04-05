@@ -1,10 +1,17 @@
 [
   {
-    "projectName": "HouseTrav",
-    "url": "https://github.com/jaamdev/housetrav-frontend-project",
-    "urlImg": "/portfolio/housetrav-project.webp",
-    "urlDeploy": "https://housetrav-frontend-project-production.up.railway.app",
-    "projectDescription": "Un portal inmobiliario en el cual puedes anunciar un chalet, apartamento, casa, edificio o terreno para vender o alquilar y con subida de imágenes para cada inmueble."
+    "projectName": "MiduCosas",
+    "url": "https://github.com/jaamdev/miducosas",
+    "urlImg": "/portfolio/miducosas.webp",
+    "urlDeploy": "https://miducosas.vercel.app",
+    "projectDescription": "Colección de recursos interesantes que Midudev compartió en sus redes sociales. Creado con una API Express y ReactJS."
+  },
+  {
+    "projectName": "Busca Pelis",
+    "url": "https://github.com/jaamdev/busca-pelis-project",
+    "urlImg": "/portfolio/busca-pelis-project.jpg",
+    "urlDeploy": "https://jaamdev.github.io/busca-pelis-project",
+    "projectDescription": "Un buscador de películas creada en ReactJS."
   },
   {
     "projectName": "Bazar Universal",
@@ -21,11 +28,11 @@
     "projectDescription": "Lista de lectura en la que el usuario puede guardar en una lista los libros que seleccione de los disponibles."
   },
   {
-    "projectName": "Busca Pelis",
-    "url": "https://github.com/jaamdev/busca-pelis-project",
-    "urlImg": "/portfolio/busca-pelis-project.jpg",
-    "urlDeploy": "https://jaamdev.github.io/busca-pelis-project",
-    "projectDescription": "Un buscador de películas creada en ReactJS."
+    "projectName": "HouseTrav",
+    "url": "https://github.com/jaamdev/housetrav-frontend-project",
+    "urlImg": "/portfolio/housetrav-project.webp",
+    "urlDeploy": "",
+    "projectDescription": "Un portal inmobiliario en el cual puedes anunciar un chalet, apartamento, casa, edificio o terreno para vender o alquilar y con subida de imágenes para cada inmueble."
   },
   {
     "projectName": "DC6 - Fuel Calculator",
